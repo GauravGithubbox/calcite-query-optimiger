@@ -1,19 +1,9 @@
 package com.knoldus;
 
-import org.apache.calcite.adapter.enumerable.EnumerableConvention;
-import org.apache.calcite.adapter.enumerable.EnumerableRules;
-import org.apache.calcite.rel.RelNode;
-import org.apache.calcite.rel.externalize.RelWriterImpl;
-import org.apache.calcite.rel.rules.CoreRules;
-import org.apache.calcite.sql.SqlExplainLevel;
 import org.apache.calcite.sql.SqlNode;
 import org.apache.calcite.sql.type.SqlTypeName;
-import org.apache.calcite.tools.RuleSet;
-import org.apache.calcite.tools.RuleSets;
 import org.junit.Test;
 
-import java.io.PrintWriter;
-import java.io.StringWriter;
 
 public class OptimizerTest {
     @Test
