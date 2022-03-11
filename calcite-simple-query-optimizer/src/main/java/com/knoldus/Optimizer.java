@@ -37,11 +37,19 @@ import java.util.Properties;
 
 public class Optimizer {
 
+    /**
+     * Defining Optimizer class
+     * @return this class will return the optimized query
+     */
     private final CalciteConnectionConfig config;
     private final SqlValidator validator;
     private final SqlToRelConverter converter;
     private final VolcanoPlanner planner;
 
+    /**
+     * Defining the constructor of the Optimizer class
+     *
+     */
     public Optimizer(
         CalciteConnectionConfig config,
         SqlValidator validator,
@@ -54,6 +62,11 @@ public class Optimizer {
         this.planner = planner;
     }
 
+
+    /**
+     * @param schema we are passing the schema
+     * @return this class will return the optimized query
+     */
     public static Optimizer create(SimpleSchema schema) {
         RelDataTypeFactory typeFactory = new JavaTypeFactoryImpl();
 

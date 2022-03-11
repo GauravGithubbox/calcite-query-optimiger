@@ -1,0 +1,27 @@
+
+ncom.knoldus.SimpleSchema#snapshot(Lorg/apache/calcite/schema/SchemaVersion;)Lorg/apache/calcite/schema/Schema;¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java ("startingBlock*¿
+startingBlock¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java (1Š
+‡
+¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java (
+%0"
+__annotate*
+java.lang.Override*4
+2
+version'org.apache.calcite.schema.SchemaVersionô
+ñ
+¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java) (02
+version'org.apache.calcite.schema.SchemaVersion"__annotation*
+
+%0*
+1*ò
+1¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java   ("Å
+¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java   (
+com.knoldus.SimpleSchema:2
+version'org.apache.calcite.schema.SchemaVersionB
+com.knoldus.SimpleSchema

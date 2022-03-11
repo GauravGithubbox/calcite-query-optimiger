@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.knoldus.OptimizerTest" time="0.945" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sonar.login" value="e0f7df4a2782d7db9609d0ba33ea0a452f02b95e"/>
+    <property name="sonar.host.url" value="http://localhost:9098"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/target/test-classes:/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/target/classes:/home/knoldus/.m2/repository/org/apache/calcite/calcite-core/1.25.0/calcite-core-1.25.0.jar:/home/knoldus/.m2/repository/org/apache/calcite/calcite-linq4j/1.25.0/calcite-linq4j-1.25.0.jar:/home/knoldus/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.jar:/home/knoldus/.m2/repository/org/apache/calcite/avatica/avatica-core/1.17.0/avatica-core-1.17.0.jar:/home/knoldus/.m2/repository/org/apache/calcite/avatica/avatica-metrics/1.17.0/avatica-metrics-1.17.0.jar:/home/knoldus/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:/home/knoldus/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar:/home/knoldus/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar:/home/knoldus/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/knoldus/.m2/repository/com/esri/geometry/esri-geometry-api/2.2.0/esri-geometry-api-2.2.0.jar:/home/knoldus/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar:/home/knoldus/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar:/home/knoldus/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.10.0/jackson-dataformat-yaml-2.10.0.jar:/home/knoldus/.m2/repository/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar:/home/knoldus/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/home/knoldus/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/home/knoldus/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/home/knoldus/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/home/knoldus/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/home/knoldus/.m2/repository/com/yahoo/datasketches/sketches-core/0.9.0/sketches-core-0.9.0.jar:/home/knoldus/.m2/repository/com/yahoo/datasketches/memory/0.9.0/memory-0.9.0.jar:/home/knoldus/.m2/repository/commons-codec/commons-codec/1.12/commons-codec-1.12.jar:/home/knoldus/.m2/repository/net/hydromatic/aggdesigner-algorithm/6.0/aggdesigner-algorithm-6.0.jar:/home/knoldus/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/knoldus/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/home/knoldus/.m2/repository/org/apache/commons/commons-dbcp2/2.6.0/commons-dbcp2-2.6.0.jar:/home/knoldus/.m2/repository/org/apache/commons/commons-pool2/2.6.1/commons-pool2-2.6.1.jar:/home/knoldus/.m2/repository/org/apache/commons/commons-lang3/3.8/commons-lang3-3.8.jar:/home/knoldus/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/home/knoldus/.m2/repository/org/codehaus/janino/commons-compiler/3.0.11/commons-compiler-3.0.11.jar:/home/knoldus/.m2/repository/org/codehaus/janino/janino/3.0.11/janino-3.0.11.jar:/home/knoldus/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/knoldus/.m2/repository/com/google/guava/guava/30.0-jre/guava-30.0-jre.jar:/home/knoldus/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/knoldus/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/knoldus/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/home/knoldus/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/knoldus/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/knoldus/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/knoldus/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/target/surefire/surefirebooter14138045206646723322.jar /home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/target/surefire 2022-03-11T14-24-52_665-jvmRun1 surefire1720343706995007384tmp surefire_010298826552361331125tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/target/test-classes:/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/target/classes:/home/knoldus/.m2/repository/org/apache/calcite/calcite-core/1.25.0/calcite-core-1.25.0.jar:/home/knoldus/.m2/repository/org/apache/calcite/calcite-linq4j/1.25.0/calcite-linq4j-1.25.0.jar:/home/knoldus/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.jar:/home/knoldus/.m2/repository/org/apache/calcite/avatica/avatica-core/1.17.0/avatica-core-1.17.0.jar:/home/knoldus/.m2/repository/org/apache/calcite/avatica/avatica-metrics/1.17.0/avatica-metrics-1.17.0.jar:/home/knoldus/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:/home/knoldus/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar:/home/knoldus/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar:/home/knoldus/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/knoldus/.m2/repository/com/esri/geometry/esri-geometry-api/2.2.0/esri-geometry-api-2.2.0.jar:/home/knoldus/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar:/home/knoldus/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar:/home/knoldus/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.10.0/jackson-dataformat-yaml-2.10.0.jar:/home/knoldus/.m2/repository/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar:/home/knoldus/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/home/knoldus/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/home/knoldus/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/home/knoldus/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/home/knoldus/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/home/knoldus/.m2/repository/com/yahoo/datasketches/sketches-core/0.9.0/sketches-core-0.9.0.jar:/home/knoldus/.m2/repository/com/yahoo/datasketches/memory/0.9.0/memory-0.9.0.jar:/home/knoldus/.m2/repository/commons-codec/commons-codec/1.12/commons-codec-1.12.jar:/home/knoldus/.m2/repository/net/hydromatic/aggdesigner-algorithm/6.0/aggdesigner-algorithm-6.0.jar:/home/knoldus/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/knoldus/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/home/knoldus/.m2/repository/org/apache/commons/commons-dbcp2/2.6.0/commons-dbcp2-2.6.0.jar:/home/knoldus/.m2/repository/org/apache/commons/commons-pool2/2.6.1/commons-pool2-2.6.1.jar:/home/knoldus/.m2/repository/org/apache/commons/commons-lang3/3.8/commons-lang3-3.8.jar:/home/knoldus/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/home/knoldus/.m2/repository/org/codehaus/janino/commons-compiler/3.0.11/commons-compiler-3.0.11.jar:/home/knoldus/.m2/repository/org/codehaus/janino/janino/3.0.11/janino-3.0.11.jar:/home/knoldus/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/knoldus/.m2/repository/com/google/guava/guava/30.0-jre/guava-30.0-jre.jar:/home/knoldus/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/knoldus/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/knoldus/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/home/knoldus/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/knoldus/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/knoldus/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/knoldus/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/knoldus"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/target/surefire/surefirebooter14138045206646723322.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.14+9-Ubuntu-0ubuntu2.18.04"/>
+    <property name="user.name" value="knoldus"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.4.0-104-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/knoldus/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.14"/>
+    <property name="user.dir" value="/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sonar.projectKey" value="calcite-query-optimizer"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.14+9-Ubuntu-0ubuntu2.18.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="test_tpch_q6" classname="com.knoldus.OptimizerTest" time="0.891"/>
+</testsuite>

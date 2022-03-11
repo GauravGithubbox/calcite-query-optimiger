@@ -1,0 +1,37 @@
+
+Bcom.knoldus.SimpleSchema$Builder#build()Lcom/knoldus/SimpleSchema;¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java> >(!"1*¥
+1¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java?$ ?(.þ
+û
+¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java?$ ?(.
+%0java.lang.String"__id*4*2"
+ com.knoldus.SimpleSchema$Builder"
+
+schemaNameù
+ö
+¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java?0 ?(8
+%1java.util.Map"__id*2*0"
+ com.knoldus.SimpleSchema$Builder"
+
+tableMapäá
+¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java? ?(#
+%2com.knoldus.SimpleSchema"com.knoldus.SimpleSchemaÈ
+Å
+¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java? ?(9
+%3"Ccom.knoldus.SimpleSchema#<init>(Ljava/lang/String;Ljava/util/Map;)V* 
+
+%2com.knoldus.SimpleSchema*
+
+%0java.lang.String*
+
+%1java.util.Map"É
+¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java? ?(: 
+
+%2com.knoldus.SimpleSchemaB$"
+ com.knoldus.SimpleSchema$Builder

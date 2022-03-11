@@ -1,0 +1,24 @@
+
+Ycom.knoldus.SimpleSchema#newBuilder(Ljava/lang/String;)Lcom/knoldus/SimpleSchema$Builder;¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java# #($"1*²
+1¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java$ $(%ôñ
+¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java$ $(&
+%0 com.knoldus.SimpleSchema$Builder" com.knoldus.SimpleSchema$Builderº
+·
+¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java$ $(&
+%1"<com.knoldus.SimpleSchema$Builder#<init>(Ljava/lang/String;)V*(
+&
+%0 com.knoldus.SimpleSchema$Builder* 
+
+
+schemaNamejava.lang.String"Ñ
+¤
+™/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleSchema.java$ $('(
+&
+%0 com.knoldus.SimpleSchema$Builder:
+
+schemaNamejava.lang.StringB"
+com.knoldus.SimpleSchema

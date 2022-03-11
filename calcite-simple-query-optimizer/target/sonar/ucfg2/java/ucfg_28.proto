@@ -1,0 +1,24 @@
+
+`com.knoldus.Optimizer#validate(Lorg/apache/calcite/sql/SqlNode;)Lorg/apache/calcite/sql/SqlNode;¡
+–/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/Optimizer.javaw w("1*Ù
+1¡
+–/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/Optimizer.javax x(‹
+ˆ
+¡
+–/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/Optimizer.javax x(2
+%0,org.apache.calcite.sql.validate.SqlValidator"__id*(*&
+com.knoldus.Optimizer"
+	validatorÒÏ
+¡
+–/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/Optimizer.javax x('$
+%1org.apache.calcite.sql.SqlNode"worg.apache.calcite.sql.validate.SqlValidator#validate(Lorg/apache/calcite/sql/SqlNode;)Lorg/apache/calcite/sql/SqlNode;*4
+2
+%0,org.apache.calcite.sql.validate.SqlValidator*(
+&
+nodeorg.apache.calcite.sql.SqlNode2*validate(Lorg/apache/calcite/sql/SqlNode;)"Ì
+¡
+–/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/Optimizer.javax x((&
+$
+%1org.apache.calcite.sql.SqlNode:&
+nodeorg.apache.calcite.sql.SqlNodeB
+com.knoldus.Optimizer

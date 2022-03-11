@@ -1,0 +1,65 @@
+
+ßcom.knoldus.Optimizer#optimize(Lorg/apache/calcite/rel/RelNode;Lorg/apache/calcite/plan/RelTraitSet;Lorg/apache/calcite/tools/RuleSet;)Lorg/apache/calcite/rel/RelNode;£
+ñ/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/Optimizer.javaÅ Å("1*Ö
+1£
+ñ/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/Optimizer.javaÇ Ç("á
+Ñ
+£
+ñ/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/Optimizer.javaÇ& Ç(<&
+%0 org.apache.calcite.tools.RuleSet"`org.apache.calcite.tools.RuleSets#ofList(Ljava/lang/Iterable;)Lorg/apache/calcite/tools/RuleSet;*%"#
+!org.apache.calcite.tools.RuleSets*+
+)
+rules org.apache.calcite.tools.RuleSeté
+ã
+£
+ñ/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/Optimizer.javaÇ Ç(=&
+%1 org.apache.calcite.tools.Program"jorg.apache.calcite.tools.Programs#of(Lorg/apache/calcite/tools/RuleSet;)Lorg/apache/calcite/tools/Program;*%"#
+!org.apache.calcite.tools.Programs*(
+&
+%0 org.apache.calcite.tools.RuleSetÜ
+É
+£
+ñ/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/Optimizer.javaÇ Ç(>+
+program org.apache.calcite.tools.Program"__id*(
+&
+%1 org.apache.calcite.tools.Programç
+ä
+£
+ñ/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/Optimizer.javaÖ Ö(4
+%2.org.apache.calcite.plan.volcano.VolcanoPlanner"__id*&*$
+com.knoldus.Optimizer"	
+plannerç
+ä
+£
+ñ/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/Optimizer.javaà à(#
+%3java.util.List"1java.util.Collections#emptyList()Ljava/util/List;*"
+java.util.Collectionsç
+ä
+£
+ñ/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/Optimizer.javaâ â(#
+%4java.util.List"1java.util.Collections#emptyList()Ljava/util/List;*"
+java.util.Collections¥±
+£
+ñ/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/Optimizer.javaÑ ä(	$
+%5org.apache.calcite.rel.RelNode"“org.apache.calcite.tools.Program#run(Lorg/apache/calcite/plan/RelOptPlanner;Lorg/apache/calcite/rel/RelNode;Lorg/apache/calcite/plan/RelTraitSet;Ljava/util/List;Ljava/util/List;)Lorg/apache/calcite/rel/RelNode;*-
++
+program org.apache.calcite.tools.Program*6
+4
+%2.org.apache.calcite.plan.volcano.VolcanoPlanner*(
+&
+nodeorg.apache.calcite.rel.RelNode*9
+7
+requiredTraitSet#org.apache.calcite.plan.RelTraitSet*
+
+%3java.util.List*
+
+%4java.util.List2ërun(Lorg/apache/calcite/plan/RelOptPlanner;Lorg/apache/calcite/rel/RelNode;Lorg/apache/calcite/plan/RelTraitSet;Ljava/util/List;Ljava/util/List;)"Œ
+£
+ñ/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/Optimizer.javaÑ ä(
+&
+$
+%5org.apache.calcite.rel.RelNode:&
+nodeorg.apache.calcite.rel.RelNode:7
+requiredTraitSet#org.apache.calcite.plan.RelTraitSet:)
+rules org.apache.calcite.tools.RuleSetB
+com.knoldus.Optimizer

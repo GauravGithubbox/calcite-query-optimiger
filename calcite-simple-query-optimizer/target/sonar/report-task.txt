@@ -1,0 +1,6 @@
+projectKey=calcite-query-optimizer
+serverUrl=http://localhost:9098
+serverVersion=9.3.0.51899
+dashboardUrl=http://localhost:9098/dashboard?id=calcite-query-optimizer
+ceTaskId=AX94MFrOavI265FHxxj-
+ceTaskUrl=http://localhost:9098/api/ce/task?id=AX94MFrOavI265FHxxj-

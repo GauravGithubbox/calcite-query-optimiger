@@ -1,0 +1,22 @@
+
+Wcom.knoldus.SimpleTable#newBuilder(Ljava/lang/String;)Lcom/knoldus/SimpleTable$Builder;£
+˜/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleTable.javaB B($"1*¨
+1£
+˜/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleTable.javaC C($ñî
+£
+˜/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleTable.javaC C(%
+%0com.knoldus.SimpleTable$Builder"com.knoldus.SimpleTable$Builder¶
+³
+£
+˜/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleTable.javaC C(%
+%1";com.knoldus.SimpleTable$Builder#<init>(Ljava/lang/String;)V*'
+%
+%0com.knoldus.SimpleTable$Builder*
+
+	tableNamejava.lang.String"Ï
+£
+˜/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleTable.javaC C(&'
+%
+%0com.knoldus.SimpleTable$Builder:
+	tableNamejava.lang.StringB"
+com.knoldus.SimpleTable

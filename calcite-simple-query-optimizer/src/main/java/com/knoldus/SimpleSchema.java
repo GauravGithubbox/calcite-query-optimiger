@@ -8,6 +8,10 @@ import org.apache.calcite.schema.impl.AbstractSchema;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * SimpleSchema class will create the schema
+ * @return this class will return the schema
+ */
 public class SimpleSchema extends AbstractSchema {
 
     private final String schemaName;

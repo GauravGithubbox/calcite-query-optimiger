@@ -1,0 +1,15 @@
+
+Lcom.knoldus.SimpleTableStatistic#getReferentialConstraints()Ljava/util/List;¬
+¡/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleTableStatistic.java%* %(C"1*•
+1¬
+¡/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleTableStatistic.java& &(–
+“
+¬
+¡/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleTableStatistic.java& &(&
+%0java.util.List"1java.util.Collections#emptyList()Ljava/util/List;*"
+java.util.Collections"Ç
+¬
+¡/home/knoldus/Documents/Template/calcite Template/calcite-query-optimiger-main/calcite-simple-query-optimizer/src/main/java/com/knoldus/SimpleTableStatistic.java& &('
+
+%0java.util.ListB$"
+ com.knoldus.SimpleTableStatistic

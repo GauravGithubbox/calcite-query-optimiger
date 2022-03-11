@@ -9,7 +9,9 @@ import org.apache.calcite.util.ImmutableBitSet;
 
 import java.util.Collections;
 import java.util.List;
-
+/**
+ * we are Defining getter and setter method of the class
+ */
 public class SimpleTableStatistic implements Statistic {
 
     private final long rowCount;
